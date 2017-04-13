@@ -64,9 +64,16 @@ language governing permissions and limitations under the License.
         
         <!-- isis -->
         <dependency>
+            <groupId>org.apache.isis.core</groupId>
+            <artifactId>isis-core-viewer-wicket-impl</artifactId>
+            <version>${isis.version}</version>
+        </dependency>
+        <!--
+        <dependency>
             <groupId>org.apache.isis.viewer</groupId>
             <artifactId>isis-viewer-wicket-impl</artifactId>
         </dependency>
+        -->
         <dependency>
             <groupId>org.apache.isis.core</groupId>
             <artifactId>isis-core-viewer-restfulobjects-server</artifactId>

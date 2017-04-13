@@ -38,6 +38,9 @@ language governing permissions and limitations under the License.
     </prerequisites>
 
     <properties>
+        <!--          1.14.0.20170319-1823 is based on Wicket 7 -->
+        <isis.version>1.14.0.20170319-1823</isis.version>
+
         <isis-wicket-excel.version>1.15.0-SNAPSHOT</isis-wicket-excel.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
